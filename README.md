@@ -7,6 +7,7 @@
     height="280"
   />
 </p>
+![9fb8ac1bb53ad95353fffe9f4e7cb70e](https://github.com/user-attachments/assets/3f39d4d0-a5f5-491c-a56a-e8bdd32a52f9)
 
 
 A sophisticated **Machine Learning and Natural Language Processing** system that predicts whether a given news article is **Fake** or **Real**. This project leverages **advanced ML/DL models** and **text processing techniques** to combat misinformation and promote media literacy.
