@@ -27,7 +27,7 @@ A sophisticated **Machine Learning and Natural Language Processing** system that
   - Count Vectorization
 <img
   src="https://github.com/user-attachments/assets/3f39d4d0-a5f5-491c-a56a-e8bdd32a52f9"
-  width="300"
+  width="350"
   align="right"
   alt="Fake News Detection Features Illustration"
 />
@@ -141,7 +141,12 @@ Fake-News-Detection/
 - **🔄 Real-time Processing**
   - Live news scraping and analysis
   - Continuous model updates with new data
-
+<img
+  src="https://github.com/user-attachments/assets/aacdd777-ffce-4202-b1ad-3c17160bcf00"
+  width="350"
+  align="right"
+  alt="Fake News Detection Features Illustration"
+/>
 - **🌐 API Integration**
   - RESTful API for external applications
   - Integration with fact-checking websites
