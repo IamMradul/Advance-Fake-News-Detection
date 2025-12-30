@@ -12,51 +12,42 @@ A sophisticated **Machine Learning and Natural Language Processing** system that
 
 ## Some of the files cannot be uploaded because of the size as datadet is really large
 
-<table>
-  <tr>
-    <td width="65%" valign="top">
+<img
+  src="https://github.com/user-attachments/assets/3f39d4d0-a5f5-491c-a56a-e8bdd32a52f9"
+  width="300"
+  align="right"
+  alt="Fake News Detection Features Illustration"
+/>
 
 ## ✅ Features
 
 - **🔧 Advanced Text Preprocessing**
-  - Tokenization and text normalization  
-  - Stopwords removal  
-  - Stemming and lemmatization  
-  - Special character handling  
+  - Tokenization and text normalization
+  - Stopwords removal
+  - Stemming and lemmatization
+  - Special character handling
 
 - **📊 Multiple Vectorization Techniques**
-  - **TF-IDF** (Term Frequency-Inverse Document Frequency)  
-  - Word Embeddings (Word2Vec, GloVe)  
-  - Count Vectorization  
+  - **TF-IDF** (Term Frequency-Inverse Document Frequency)
+  - Word Embeddings (Word2Vec, GloVe)
+  - Count Vectorization
 
 - **🤖 Diverse ML/DL Models**
-  - Logistic Regression  
-  - Random Forest Classifier  
-  - XGBoost  
-  - **Deep Learning Models (LSTM / Transformer)**  
+  - Logistic Regression
+  - Random Forest Classifier
+  - XGBoost
+  - **Deep Learning Models (LSTM / Transformer)**
 
 - **📈 Comprehensive Evaluation**
-  - Accuracy, Precision, Recall, F1-Score  
-  - Confusion Matrix Analysis  
-  - ROC Curves and AUC  
+  - Accuracy, Precision, Recall, F1-Score
+  - Confusion Matrix Analysis
+  - ROC Curves and AUC
 
 - **🌐 User-Friendly Interface**
-  - Flask web application  
-  - Streamlit dashboard option  
-  - RESTful API endpoints  
+  - Flask web application
+  - Streamlit dashboard option
+  - RESTful API endpoints
 
-    </td>
-    <td width="35%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/3f39d4d0-a5f5-491c-a56a-e8bdd32a52f9"
-        alt="Fake News Detection Features Illustration"
-        width="300"
-      />
-      <br/>
-      <em>Figure: Core Components of the Fake News Detection System</em>
-    </td>
-  </tr>
-</table>
 
 
 ## 📂 Project Structure
