@@ -1,4 +1,5 @@
 # 🔍 Machine Learning & NLP-based Fake News Detection System
+<img width="735" height="380" alt="c46abed4-5b56-4f1f-8bb3-b5231b044be7" src="https://github.com/user-attachments/assets/c1e798c7-0042-468f-866c-7bdf837e5e4a" />
 
 A sophisticated **Machine Learning and Natural Language Processing** system that predicts whether a given news article is **Fake** or **Real**. This project leverages **advanced ML/DL models** and **text processing techniques** to combat misinformation and promote media literacy.
 
