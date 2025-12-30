@@ -12,12 +12,6 @@ A sophisticated **Machine Learning and Natural Language Processing** system that
 
 ## Some of the files cannot be uploaded because of the size as datadet is really large
 
-<img
-  src="https://github.com/user-attachments/assets/3f39d4d0-a5f5-491c-a56a-e8bdd32a52f9"
-  width="300"
-  align="right"
-  alt="Fake News Detection Features Illustration"
-/>
 
 ## ✅ Features
 
@@ -31,7 +25,12 @@ A sophisticated **Machine Learning and Natural Language Processing** system that
   - **TF-IDF** (Term Frequency-Inverse Document Frequency)
   - Word Embeddings (Word2Vec, GloVe)
   - Count Vectorization
-
+<img
+  src="https://github.com/user-attachments/assets/3f39d4d0-a5f5-491c-a56a-e8bdd32a52f9"
+  width="300"
+  align="right"
+  alt="Fake News Detection Features Illustration"
+/>
 - **🤖 Diverse ML/DL Models**
   - Logistic Regression
   - Random Forest Classifier
