@@ -134,15 +134,16 @@ Fake-News-Detection/
 ## 🌟 Future Improvements
 
 ### 🎯 Planned Enhancements
-- **🤖 Advanced Transformer Models**
-  - Integration of BERT, RoBERTa, and GPT models
-  - Fine-tuning on domain-specific data
 <img
   src="https://github.com/user-attachments/assets/aacdd777-ffce-4202-b1ad-3c17160bcf00"
   width="350"
   align="right"
   alt="Fake News Detection Features Illustration"
 />
+- **🤖 Advanced Transformer Models**
+  - Integration of BERT, RoBERTa, and GPT models
+  - Fine-tuning on domain-specific data
+
 - **🔄 Real-time Processing**
   - Live news scraping and analysis
   - Continuous model updates with new data
@@ -182,6 +183,13 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - 🔗 [LinkedIn](www.linkedin.com/in/mradul-gupta-033438332)
 - 🔗 [GitHub](https://github.com/IamMradul)
 - 📧 Email: mradulg306@gmail.com
+
+## 📄 Research Publication
+
+The work presented in this repository is based on a **published research paper** in an IEEE-recognized international conference.  
+This codebase supports reproducibility and practical validation of the proposed approach.
+
+🔗 **Access the paper:** https://ieeexplore.ieee.org/document/11264997 
 
 ## 🙏 Acknowledgments
 
