@@ -102,82 +102,6 @@ Fake-News-Detection/
 
 *Performance metrics evaluated on test dataset of 10,000 articles*
 
-## 🚀 Quick Start
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/Fake-News-Detection.git
-cd Fake-News-Detection
-```
-
-### 2️⃣ Set Up Environment
-```bash
-# Create virtual environment
-python -m venv fake_news_env
-
-# Activate virtual environment
-# On Windows:
-fake_news_env\Scripts\activate
-# On macOS/Linux:
-source fake_news_env/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### 3️⃣ Download Required Data
-```bash
-# Download NLTK data
-python -c "import nltk; nltk.download('all')"
-
-# Download pre-trained models (if not training from scratch)
-python download_models.py
-```
-
-### 4️⃣ Run the Application
-
-**Option A: Flask Web App**
-```bash
-python main.py
-# Access at http://localhost:5000
-```
-
-**Option B: Streamlit Dashboard**
-```bash
-streamlit run app/streamlit_app.py
-# Access at http://localhost:8501
-```
-
-**Option C: Command Line Interface**
-```bash
-python predict.py --text "Your news article text here"
-```
-
-## 📦 Dependencies
-
-### Core Requirements
-- **Python 3.8+**
-- **pandas** - Data manipulation and analysis
-- **numpy** - Numerical computing
-- **scikit-learn** - Machine learning algorithms
-- **nltk** - Natural language processing
-- **spacy** - Advanced NLP features
-
-### Machine Learning
-- **xgboost** - Gradient boosting framework
-- **tensorflow** / **pytorch** - Deep learning frameworks
-- **transformers** - Pre-trained transformer models
-
-### Web Framework
-- **Flask** - Web application framework
-- **Streamlit** - Data app framework
-- **gunicorn** - WSGI HTTP Server
-
-### Visualization
-- **matplotlib** - Plotting library
-- **seaborn** - Statistical visualization
-- **plotly** - Interactive visualizations
-
 ## 📂 Dataset Information
 
 ### Primary Dataset
@@ -186,35 +110,10 @@ python predict.py --text "Your news article text here"
 - **Format**: CSV with columns: `id`, `title`, `author`, `text`, `label`
 - **Labels**: 0 (Real), 1 (Fake)
 
-### Additional Datasets (Optional)
+### Additional Datasets 
 - **LIAR Dataset**: Political statements fact-checking
 - **FakeNewsNet**: Social media fake news detection
 - **ISOT Fake News Dataset**: Comprehensive fake news collection
-
-## 🔧 Configuration
-
-### Model Configuration
-```python
-# config.py
-MODEL_CONFIG = {
-    'max_features': 10000,
-    'max_length': 500,
-    'embedding_dim': 300,
-    'lstm_units': 128,
-    'dropout_rate': 0.5
-}
-```
-
-### Training Parameters
-```python
-TRAINING_CONFIG = {
-    'test_size': 0.2,
-    'random_state': 42,
-    'batch_size': 32,
-    'epochs': 50,
-    'learning_rate': 0.001
-}
-```
 
 ## 🌟 Future Improvements
 
@@ -240,48 +139,6 @@ TRAINING_CONFIG = {
   - Interactive dashboards for trend analysis
   - Explanation AI for model interpretability
 
-## 🧪 Testing
-
-Run the test suite:
-```bash
-# Run all tests
-python -m pytest tests/
-
-# Run specific test categories
-python -m pytest tests/test_preprocessing.py
-python -m pytest tests/test_models.py
-
-# Generate coverage report
-python -m pytest --cov=src tests/
-```
-
-## 📈 Usage Examples
-
-### Python Script Usage
-```python
-from src.predictor import FakeNewsDetector
-
-# Initialize detector
-detector = FakeNewsDetector()
-
-# Predict single article
-result = detector.predict("Breaking: Scientists discover...")
-print(f"Prediction: {result['label']}")
-print(f"Confidence: {result['confidence']:.2f}")
-
-# Batch prediction
-articles = ["Article 1 text...", "Article 2 text..."]
-results = detector.predict_batch(articles)
-```
-
-### API Usage
-```bash
-# POST request to prediction endpoint
-curl -X POST http://localhost:5000/api/predict \
-  -H "Content-Type: application/json" \
-  -d '{"text": "Your news article text here"}'
-```
-
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
@@ -293,22 +150,6 @@ We welcome contributions! Please follow these steps:
 5. **Commit changes**: `git commit -m 'Add amazing feature'`
 6. **Push to branch**: `git push origin feature/amazing-feature`
 7. **Open a Pull Request**
-
-### Development Setup
-```bash
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Install pre-commit hooks
-pre-commit install
-
-# Run code formatting
-black src/
-isort src/
-
-# Run linting
-flake8 src/
-```
 
 ## 📄 License
 
