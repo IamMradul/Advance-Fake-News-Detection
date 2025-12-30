@@ -137,16 +137,16 @@ Fake-News-Detection/
 - **🤖 Advanced Transformer Models**
   - Integration of BERT, RoBERTa, and GPT models
   - Fine-tuning on domain-specific data
-
-- **🔄 Real-time Processing**
-  - Live news scraping and analysis
-  - Continuous model updates with new data
 <img
   src="https://github.com/user-attachments/assets/aacdd777-ffce-4202-b1ad-3c17160bcf00"
   width="350"
   align="right"
   alt="Fake News Detection Features Illustration"
 />
+- **🔄 Real-time Processing**
+  - Live news scraping and analysis
+  - Continuous model updates with new data
+
 - **🌐 API Integration**
   - RESTful API for external applications
   - Integration with fact-checking websites
